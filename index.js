@@ -8,5 +8,5 @@ document.querySelector('main#main').remove();
 // Create a new element and assign it to the newHeader variable 
 const newHeader = document.createElement('h1');
 newHeader.id = 'victory'
-newHeader.className = 'victory' //tests pass without this
+// newHeader.className = 'victory' //tests pass without this
 newHeader.innerHTML = "<p>Amy is the champion!</p>"

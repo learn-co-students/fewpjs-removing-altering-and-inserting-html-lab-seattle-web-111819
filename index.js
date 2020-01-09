@@ -1,8 +1,9 @@
 // Write your code here!
 
 // Remove the element DOM node 'main#main'
-document.querySelector('main#main').remove();
+document.getElementById("main").remove();
 // ALTERNATIVE:
+// document.querySelector('main#main').remove();
 // main.remove()
 
 // Create a new element and assign it to the newHeader variable 

@@ -9,4 +9,4 @@ document.getElementById("main").remove();
 // Create a new element and assign it to the newHeader variable 
 const newHeader = document.createElement('h1');
 newHeader.id = 'victory'
-newHeader.textContent = "<p>Amy is the champion!</p>"
+newHeader.textContent = "Amy is the champion!"
